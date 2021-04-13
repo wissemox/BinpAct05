@@ -1,0 +1,98 @@
+.MainFlexBox {
+  display: flex;
+}
+.TextFlexBox02 h4 {
+  font-size: 40px;
+  font-weight: 600;
+  width: 450px;
+  padding-left: 180px;
+  padding-top: 50px;
+  color: #2a65ab;
+  text-align: left;
+}
+
+.TextFlexBox02 p {
+  font-size: 25px;
+  width: 400px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 180px;
+}
+.TextFlexBox02 {
+  margin-top: 10px;
+}
+.BackGroundImage6 img {
+  width: 500px;
+  margin-left: 190px;
+  margin-top: 30px;
+}
+.MainFlexBox {
+  margin-top: 25px;
+}
+
+.Carousel p {
+  font-size: 40px;
+}
+.Carousel {
+  margin-top: 100px;
+  height: 330px;
+}
+.MapCarousel {
+  margin-top: 20px;
+  background-color: #d7ecfb;
+  width: 200px;
+  height: 180px;
+  border-radius: 30px;
+}
+.MapCarousel {
+  margin-left: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.MapCarousel img {
+  width: 150px;
+}
+.MapCarousel p {
+  font-size: 28px;
+  width: 250px;
+  color: #2a65aa;
+}
+.Text5 p {
+  font-size: 40px;
+  color: #224a82;
+}
+.Text5 span {
+}
+.Text5 {
+  margin-top: 1px;
+  height: 150px;
+}
+.Text5 span {
+  font-size: 28px;
+  color: #649acf;
+}
+.FlexBoxazd {
+  display: flex;
+}
+.MainFlexBox button {
+  border: none;
+  margin-top: 20px;
+  margin-right: 30px;
+  font-size: 20px;
+  background-color: #f72122;
+  width: 250px;
+  color: white;
+  border-radius: 20px;
+}
+.Text {
+  background-color: white;
+  color: white;
+  height: 400px;
+}
+.Text03 {
+  margin-right: 50px;
+}
+.Textdz03 {
+  background-color: #fe7966;
+  color: #fe7966;
+  height: 250px;
+}
