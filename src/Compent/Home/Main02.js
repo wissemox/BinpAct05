@@ -14,8 +14,9 @@ const Main02 = () => {
         { width: 550, itemsToShow: 2 },
         { width: 768, itemsToShow: 3 },
         { width: 1200, itemsToShow: 4 },
-        { width: 1500, itemsToShow: 5 },
-        { width: 1600, itemsToShow: 6 },
+        { width: 1600, itemsToShow: 5 },
+       
+  
         
       ];
 
@@ -34,21 +35,36 @@ const Main02 = () => {
       },
       {
         Image:"dzadzzd"
-      }]
+      },  {
+        Image:"dzadzzd"
+      },  {
+        Image:"dzadzzd"
+      },  {
+        Image:"dzadzzd"
+      },]
       
     return (
         <div className="Carousel" >
             <p>Les nouveautés</p>
-            <div data-Aos="fade" >
+            <Carousel data-Aos="fade" breakPoints={breakPoints}>
+              
+        {Array.map((el)=><MapCarousel el={el}/>)}
+             
+        
 
+            </Carousel>
+            {/* <div data-Aos="fade" >
+          
            
             <Carousel  breakPoints={breakPoints}  >
           <div data-Aos="fade"  className="FlexBoxazd">
-          {Array.map((el)=><MapCarousel el={el}/>)}
+         <Card>
+         {Array.map((el)=><MapCarousel el={el}/>)}
+           </Card>
           </div>
           
             </Carousel>
-            </div>
+            </div> */}
         </div>
     )
 }

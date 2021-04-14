@@ -96,3 +96,13 @@
   color: #fe7966;
   height: 250px;
 }
+.CarouselImage6 {
+  background-color: #d7ecfb;
+  width: 250px;
+  height: 150px;
+  border-radius: 20px;
+  margin-left: 50px;
+}
+.CarouselImage6 img {
+  width: 150px;
+}

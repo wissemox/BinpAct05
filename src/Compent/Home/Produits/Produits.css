@@ -10,6 +10,7 @@
 .ProduitsFlexBox {
   display: flex;
   margin-left: 130px;
+  flex-wrap: wrap;
 }
 .ProduitsMap03 {
   background-color: #a4d5f7;
