@@ -5,7 +5,7 @@ import Carousel from 'react-elastic-carousel'
 import Card from './Card'
 import MapCarousel from './MapCarousel'
 
-const Main02 = () => {
+const Main02 = ({BackgroundImage}) => {
     useEffect(() => {
         Aos.init({duration: 3000});
       }, [])
@@ -44,7 +44,11 @@ const Main02 = () => {
       },]
       
     return (
+      <>
         <div className="Carousel" >
+        {BackgroundImage &&  <div className="Test06">
+
+</div> } 
             <p>Les nouveautés</p>
             <Carousel data-Aos="fade" breakPoints={breakPoints}>
               
@@ -66,6 +70,7 @@ const Main02 = () => {
             </Carousel>
             </div> */}
         </div>
+        </>
     )
 }
 

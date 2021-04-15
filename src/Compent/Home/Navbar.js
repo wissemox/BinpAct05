@@ -1,20 +1,62 @@
-import React from 'react'
+import React,{useState ,useEffect} from 'react'
 import './Navbar.css'
 import {Link} from 'react-router-dom'
-const Navbar = () => {
+import Aos from 'aos'
+import "aos/dist/aos.css"
+const Navbar = ({BackgroundImage , setImage}) => {
+    const[Morge , setMorge]=useState()
+    const[Bloen , setBloen]=useState(false)
+    const Togel =()=>{
+        setImage(!BackgroundImage)
+    }
+    useEffect(() => {
+        Aos.init({duration: 2000});
+      }, [])
     return (
-        <div className="nAVbA02">
-            <div className="FlexBoxNavBar">
-                <img src="binpact002.png"/>
+        <div   data-Aos="fade-up" className="nAVbA02">
+                        
+            {BackgroundImage?<div className="Test06"> 
+            <div data-Aos="fade-up"  className="Categories">
+            <button  onClick={Togel}></button>
+            </div>
+            </div> :null}
+           
+            <div className="FlexBox03">
+                <div className="ImageNavbar">
+                          <img src="binpact002.png"/>
+                </div>
                     <div className="Text03">
+                        {console.log(BackgroundImage)}
+                    <p  >Accueil</p>
+                 <Link to="/Catgory">  <p>Pourquoi Binpact</p> </Link> 
+                    <p onClick={Togel}>Catégories</p>
+                    <p>Communautés</p>
+                    <Link to="/login"><button><h2>Login</h2></button></Link> 
+                    <Link to="/Register"><button><h2>Register</h2></button></Link> 
+                </div>
+            </div>
+            <div className="Menu05">
+
+            <img onClick={()=>setBloen(!Bloen)} src="Menud.png"/>
+            
+           
+            </div>
+            <div className="BOlen">
+             
+            {Bloen ?   <>
                     <p>Accueil</p>
                     <p>Pourquoi Binpact</p>
                     <p>Catégories</p>
                     <p>Communautés</p>
-                   <Link to="/login"><button><h2>Login</h2></button></Link> 
-                   <Link to="/Register"><button><h2>Register</h2></button></Link> 
-                    </div>
-            </div>
+                    <div className="Button03">
+                <Link to="/login"><button><h2>Login</h2></button></Link> 
+                <Link to="/Register"><button><h2>Register</h2></button></Link> 
+                </div>
+               </>   :null}
+               </div>
+              <div>
+            
+              </div>
         </div>
     )
 }

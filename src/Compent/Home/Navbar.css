@@ -11,10 +11,16 @@
 .FlexBoxNavBar img {
   width: 180px;
 }
-.FlexBoxNavBar p {
-  padding-top: 60px;
-  font-size: 22px;
-  margin-left: 40px;
+
+.FlexBoxNavBar03 {
+  background-color: #0b224d;
+  height: 100px;
+}
+.FlexBoxNavBar {
+  height: 100px;
+}
+.FlexBoxNavBar button {
+  background-color: red;
 }
 .Text03 {
   display: flex;
@@ -27,7 +33,7 @@
   width: 80px;
   height: 30px;
   border: none;
-  background-color: #f72122;
+
   color: white;
   border-radius: 18px;
 }
@@ -41,9 +47,120 @@
   height: 720px;
   background-image: url("BackGround05.png");
 }
+.Menu05 {
+  display: none;
+}
+.BOlen {
+  display: none;
+}
+.Image68 {
+  height: 100px;
+}
+
 .FlexBoxNavBar img {
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 50px;
   width: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  .FlexBoxNavBar img {
+    -webkit-transition: 1s;
+    width: 180px;
+  }
+  .Text03 {
+    -webkit-transition: 1s;
+    display: none;
+  }
+  .Menu05 {
+    -webkit-transition: 1s;
+    display: flex;
+    margin-left: 220px;
+  }
+  .Menu05 img {
+    -webkit-transition: 1s;
+    width: 50px;
+  }
+  .Menu05 img:hover {
+    -webkit-transition: 1s;
+    transform: scale(1.2);
+    transition: transform 2s;
+  }
+  .BOlen {
+    margin-top: 20px;
+    -webkit-transition: 1s;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1050px;
+    background-color: rgb(241, 241, 241);
+  }
+  .BOlen p {
+    padding-top: 10px;
+    text-align: center;
+    width: 80px;
+    padding-left: 200px;
+    font-size: 22px;
+
+    color: #5793ce;
+  }
+  .Button03 {
+    -webkit-transition: 1s;
+    margin-top: 20px;
+    margin-left: 120px;
+    display: flex;
+  }
+  .Button03 button {
+    -webkit-transition: 1s;
+    margin-left: 10px;
+    border: none;
+    background-color: #f72122;
+    border-radius: 50px;
+    color: white;
+    width: 100px;
+  }
+}
+.Categories button {
+  color: #0b224d;
+  background-color: #0b224d;
+  -webkit-transition: 1s;
+  border: none;
+  width: 100px;
+  height: 30px;
+  margin-left: 535px;
+  margin-top: 40px;
+  border-radius: 20px;
+}
+.Categories button:hover {
+  -webkit-transition: 1s;
+  background-color: #f72122;
+  color: white;
+}
+.FlexBox03 {
+  display: flex;
+  background-color: #0b224d;
+}
+.ImageNavbar {
+  margin-left: 150px;
+}
+.ImageNavbar img {
+  width: 250px;
+  margin-top: 15px;
+}
+.FlexBox03 p {
+  font-size: 20px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.FlexBox03 button {
+  background-color: #f72122;
+  margin-top: 20px;
+}
+.FlexBox03 p:hover {
+  cursor: pointer;
+  opacity: 60%;
+  text-decoration: none;
+
+  color: #f72122;
 }

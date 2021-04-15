@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React,{useEffect ,useState} from 'react'
 import Navbar from './Navbar'
 import Main from './Main'
 import Main02 from './Main02'
@@ -14,13 +14,17 @@ const Home = () => {
     useEffect(() => {
         Aos.init({duration: 2000});
       }, [])
+      const [BackgroundImage , setImage]=useState(false)
     return (
         <div>
+            
+                
             <div className="NavBar">
-            <Navbar/>
-            <Main/>
+            <Navbar BackgroundImage={BackgroundImage} setImage={setImage}/>
+            
+            <Main BackgroundImage={BackgroundImage} setImage={setImage}/>
             <div data-Aos="fade-up" >
-            <Main02/>
+            <Main02 BackgroundImage={BackgroundImage}/>
             </div>
             <div className="Text5">
                 <p>Comment ca mache ?</p>
@@ -35,6 +39,7 @@ const Home = () => {
             </div>
            
         </div>
+     
     )
 }
 

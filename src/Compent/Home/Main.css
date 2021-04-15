@@ -106,3 +106,67 @@
 .CarouselImage6 img {
   width: 150px;
 }
+@media screen and (max-width: 600px) {
+  .MainFlexBox {
+    -webkit-transition: 1s;
+    margin-right: 250px;
+  }
+  .TextFlexBox02 {
+    -webkit-transition: 1s;
+    margin-right: 150px;
+    padding-right: 50px;
+  }
+  .TextFlexBox02 h4 {
+    -webkit-transition: 1s;
+    padding-left: 50px;
+  }
+  .TextFlexBox02 p {
+    -webkit-transition: 1s;
+    padding-left: 70px;
+    justify-content: center;
+  }
+  .TextFlexBox02 button {
+    -webkit-transition: 1s;
+    margin-left: 50px;
+  }
+  .BackGroundImage6 {
+    display: none;
+  }
+}
+.Test06 {
+  -webkit-transition: 1s;
+  position: absolute;
+
+  width: 1530px;
+  opacity: 50%;
+  height: 1000px;
+  background-image: url("Morlads.png");
+}
+.Test07 {
+  -webkit-transition: 1s;
+  position: absolute;
+  background-image: url("Background58.png");
+
+  width: 1100px;
+  margin-left: 200px;
+  height: 400px;
+  border-radius: 20px;
+  margin-bottom: 150px;
+}
+.Test08 {
+  height: 800px;
+}
+.Test07 img {
+  width: 500px;
+}
+.Imagec5 {
+  margin-top: 20px;
+  margin-left: 800px;
+}
+.Imagec5 img {
+  width: 500px;
+}
+.Button08 button {
+  background-color: #5893ce;
+  width: 150px;
+}
