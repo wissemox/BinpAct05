@@ -1,6 +1,6 @@
 .BackgroundPhoto {
-  background-image: url("Background689.png");
-  height: 430px;
+  background-image: url("BackGrounda9.png");
+  height: 500px;
 }
 .BackgroundPhoto {
   display: flex;
@@ -43,5 +43,36 @@
 }
 .dzdqz {
   margin-top: 150px;
-  margin-left: 350px;
+  margin-left: 10px;
+}
+.Image5896 img {
+  width: 250px;
+  margin-top: 20px;
+}
+.Image5896 {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+.Image8 img {
+  margin-top: 90px;
+  margin-left: 250px;
+  width: 400px;
+}
+/* BackgroundPhoto */
+@media screen and (max-width: 600px) {
+  .BackgroundPhoto img {
+    width: 150px;
+  }
+  .BackgroundPhoto {
+    display: flex;
+    height: 300px;
+    width: 500px;
+  }
+  .Image8 {
+    display: none;
+  }
+  .Image5896 {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
 }

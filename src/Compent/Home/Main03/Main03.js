@@ -8,8 +8,8 @@ const Main03 = () => {
       }, [])
     return (
         <div data-Aos="fade-left" className="DisplayFlex">
-            <div>
-                <img src="Image0.png"/>
+            <div className="Image05s">
+                <img src="Humaena5.png"/>
             </div>
 
             <div data-Aos="fade-right" className="TextFlexBox03">
@@ -43,6 +43,7 @@ const Main03 = () => {
                     <h1>2</h1>
                    
                 </div>
+                
                 <div className="Number03">
                     <h1>3</h1>
                    

@@ -4,6 +4,9 @@
 }
 .DisplayFlex {
   display: flex;
+  background-image: url("BackUlrazd.png");
+  width: 1520px;
+  height: 800px;
 }
 .DisplayFlex img {
   width: 750px;
@@ -38,7 +41,7 @@
   margin-left: 30px;
 }
 .Number01 {
-  background-color: #fa644b;
+  background-color: #f72122;
 
   width: 43px;
   border-radius: 10px;
@@ -62,9 +65,55 @@
   margin-left: 30px;
 }
 .AllNumbre {
-  background-image: url("Lign02.png");
+  background-image: url("Ligne68.png");
   height: 490px;
   width: 10px;
   width: 80px;
   margin-left: 30px;
+}
+
+.Image05s img {
+  width: 450px;
+}
+.Image05s {
+  margin-left: 200px;
+}
+.DisplayFlex {
+  margin-top: 80px;
+}
+/* Image05s */
+@media screen and (max-width: 600px) {
+  .Image05s img {
+    display: none;
+  }
+  .Textwis {
+    margin-right: 150px;
+    width: 250px;
+    text-align: left;
+  }
+  .TextFlexBox03 {
+    padding-left: 20px;
+    margin-left: 0px;
+  }
+  .TextFlexBox03 h2 {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .TextFlexBox03 {
+    width: 350px;
+  }
+  .AllNumbre {
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  .Image05s {
+    margin-left: 0px;
+  }
+  .TextFlexBox03 p {
+    padding-left: 0px;
+    padding-right: 20px;
+    font-size: 18px;
+    width: 250px;
+    text-align: justify;
+  }
 }

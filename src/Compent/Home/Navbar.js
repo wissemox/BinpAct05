@@ -3,6 +3,7 @@ import './Navbar.css'
 import {Link} from 'react-router-dom'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import Modale from './Modal'
 const Navbar = ({BackgroundImage , setImage}) => {
     const[Morge , setMorge]=useState()
     const[Bloen , setBloen]=useState(false)
@@ -28,8 +29,11 @@ const Navbar = ({BackgroundImage , setImage}) => {
                     <div className="Text03">
                         {console.log(BackgroundImage)}
                     <p  >Accueil</p>
-                 <Link to="/Catgory">  <p>Pourquoi Binpact</p> </Link> 
-                    <p onClick={Togel}>Catégories</p>
+                 <Link to="/Catgory"> <div className="PorquoiBinpact">
+                 <p>Pourquoi Binpact</p>
+                     </div> </Link> 
+                     <p onClick={Togel}>Catégories</p> 
+                    {/* <Modale className="d"/> */}
                     <p>Communautés</p>
                     <Link to="/login"><button><h2>Login</h2></button></Link> 
                     <Link to="/Register"><button><h2>Register</h2></button></Link> 
@@ -43,7 +47,7 @@ const Navbar = ({BackgroundImage , setImage}) => {
             </div>
             <div className="BOlen">
              
-            {Bloen ?   <>
+            {Bloen ?    <div className="Margine5">
                     <p>Accueil</p>
                     <p>Pourquoi Binpact</p>
                     <p>Catégories</p>
@@ -52,7 +56,7 @@ const Navbar = ({BackgroundImage , setImage}) => {
                 <Link to="/login"><button><h2>Login</h2></button></Link> 
                 <Link to="/Register"><button><h2>Register</h2></button></Link> 
                 </div>
-               </>   :null}
+               </div>   :null}
                </div>
               <div>
             

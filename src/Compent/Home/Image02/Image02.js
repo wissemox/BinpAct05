@@ -11,32 +11,17 @@ const Image02 = () => {
 
         
             <div data-Aos="fade-right"  className="BackgroundPhoto" >
-            <div data-Aos="fade-left" className="BackGroundPola">
+              <div className="Image5896">
+              <img src="ImageTable58.png"/>
+                <img src="Table089a.png"/>
               
-            <img src="Rateing.png"/>
-            </div>
+              </div>
+              <div className="Image8">
+              <img src="FeedBack06.png"/>
+              </div>
 
-            <div data-Aos="fade-up" className="dzdqz">
-           <img className="Wissemoa" src="ImageTable03.png"/>
-           <div className="dzdqz03">
-           <img style={{boxShadow:"box-shadow: 10px 10px grey"}} src="ImagetABLE01.png"/>
-           </div>
-            </div>
-            <div>
-            <div>
-                <div data-Aos="fade-up" className="ImageTable6">
-                    <div>
-                    <img src="ImageTable08.png"/>
-                    </div>
-                  <div className="Radio">
-                  <img src="ImageTable06.png"/>
-                  </div>
-                </div>
-               
-              
-            </div>
-            </div>
-         
+             
+
         </div>
         
     )

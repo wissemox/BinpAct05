@@ -16,6 +16,8 @@ const Main02 = ({BackgroundImage}) => {
         { width: 1200, itemsToShow: 4 },
         { width: 1600, itemsToShow: 5 },
        
+     
+       
   
         
       ];
@@ -46,17 +48,19 @@ const Main02 = ({BackgroundImage}) => {
     return (
       <>
         <div className="Carousel" >
-        {BackgroundImage &&  <div className="Test06">
+        {BackgroundImage &&  <div >
 
 </div> } 
             <p>Les nouveautés</p>
-            <Carousel data-Aos="fade" breakPoints={breakPoints}>
+         
+            <Carousel data-Aos="fade" className="Da" breakPoints={breakPoints}>
               
         {Array.map((el)=><MapCarousel el={el}/>)}
              
         
 
             </Carousel>
+       
             {/* <div data-Aos="fade" >
           
            

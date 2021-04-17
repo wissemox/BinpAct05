@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+
   padding: 0px;
   font-family: "Sakkal Majalla";
 }
@@ -24,7 +25,8 @@
 }
 .Text03 {
   display: flex;
-  margin-left: 300px;
+  margin-left: 240px;
+
   margin-top: 20px;
 }
 .Text03 button {
@@ -37,16 +39,12 @@
   color: white;
   border-radius: 18px;
 }
+
 .Text03 h2 {
   font-weight: 400;
+  font-size: 25px;
 }
 
-.NavBar {
-  width: 1540px;
-
-  height: 720px;
-  background-image: url("BackGround05.png");
-}
 .Menu05 {
   display: none;
 }
@@ -67,22 +65,27 @@
 @media screen and (max-width: 600px) {
   .FlexBoxNavBar img {
     -webkit-transition: 1s;
-    width: 180px;
   }
   .Text03 {
     -webkit-transition: 1s;
     display: none;
   }
   .Menu05 {
+    background-color: #0b224d;
     -webkit-transition: 1s;
+    height: 80px;
     display: flex;
-    margin-left: 220px;
   }
   .Menu05 img {
     -webkit-transition: 1s;
-    width: 50px;
+    margin-left: 230px;
+    margin-top: 10px;
+    -webkit-transition: 1s;
+    width: 45px;
+    height: 40px;
   }
   .Menu05 img:hover {
+    -webkit-transition: 1s;
     -webkit-transition: 1s;
     transform: scale(1.2);
     transition: transform 2s;
@@ -96,6 +99,7 @@
     background-color: rgb(241, 241, 241);
   }
   .BOlen p {
+    -webkit-transition: 1s;
     padding-top: 10px;
     text-align: center;
     width: 80px;
@@ -110,14 +114,25 @@
     margin-left: 120px;
     display: flex;
   }
+  .Button03 h2 {
+    font-size: 20px;
+  }
   .Button03 button {
+    margin-bottom: 20px;
+    height: 23px;
+    padding-bottom: 10px;
+    font-size: 12px;
     -webkit-transition: 1s;
-    margin-left: 10px;
+    margin-left: 20px;
+
     border: none;
     background-color: #f72122;
     border-radius: 50px;
     color: white;
     width: 100px;
+  }
+  .BOlen {
+    margin-top: 0px;
   }
 }
 .Categories button {
@@ -127,7 +142,7 @@
   border: none;
   width: 100px;
   height: 30px;
-  margin-left: 535px;
+  margin-left: 450px;
   margin-top: 40px;
   border-radius: 20px;
 }
@@ -144,12 +159,14 @@
   margin-left: 150px;
 }
 .ImageNavbar img {
-  width: 250px;
+  width: 200px;
   margin-top: 15px;
+  margin-right: 100px;
 }
 .FlexBox03 p {
   font-size: 20px;
   color: white;
+
   margin-left: 50px;
   margin-top: 20px;
 }
@@ -163,4 +180,18 @@
   text-decoration: none;
 
   color: #f72122;
+}
+
+.Button03 {
+  font-size: 12px;
+}
+.PorquoiBinpact p {
+  width: 120px;
+}
+
+.Margine5 p {
+  padding-left: 150px;
+  width: 350px;
+  font-size: 25px;
+  text-align: center;
 }

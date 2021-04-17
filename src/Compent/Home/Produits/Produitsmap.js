@@ -11,20 +11,11 @@ const Produitsmap = ({el}) => {
                 <img src={el.Image}/>
                 
             </div>
-            <div className="Text06">
-                <p>Nom Product:</p>
-            <p>{el.Name}</p>
-            </div>
-            <div className="Descraption">
-                <p>{el.Descraption}</p>
-            </div>
-            <div className="Prix03">
-                <p>Prix:</p>
-                <p>{el.Prix}</p>
-            </div>
-            <div className="Trouvez">        
+            <div className="Bdutton">       
             <button>Trouquez maintenant</button>
             </div>
+            
+            
             
         </div>
     )

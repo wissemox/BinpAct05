@@ -7,8 +7,8 @@ const Image = () => {
         Aos.init({duration: 2000});
       }, [])
     return (
-        <div  data-Aos="fade-right" className="Image " >
-            <img src="Online shop managers asking clients for feedback.jpg"/>
+        <div  data-Aos="fade-right" className="Image" >
+            <p>Votre évaluation nous interressent</p>
         </div>
     )
 }

@@ -4,30 +4,30 @@
 .TextFlexBox02 h4 {
   font-size: 40px;
   font-weight: 600;
-  width: 450px;
-  padding-left: 180px;
+  width: 700px;
+  padding-left: 250px;
   padding-top: 50px;
-  color: #2a65ab;
+  color: white;
   text-align: left;
 }
 
 .TextFlexBox02 p {
-  font-size: 25px;
-  width: 400px;
+  opacity: 60%;
+  color: white;
+  font-size: 20px;
+  width: 500px;
   text-align: left;
   padding-top: 20px;
-  padding-left: 180px;
+  padding-left: 250px;
 }
-.TextFlexBox02 {
-  margin-top: 10px;
-}
+
 .BackGroundImage6 img {
-  width: 500px;
-  margin-left: 190px;
-  margin-top: 30px;
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 130px;
 }
-.MainFlexBox {
-  margin-top: 25px;
+.BackGroundImage6 {
+  margin-top: 0px;
 }
 
 .Carousel p {
@@ -63,7 +63,8 @@
 .Text5 span {
 }
 .Text5 {
-  margin-top: 1px;
+  margin-top: 120px;
+
   height: 150px;
 }
 .Text5 span {
@@ -76,12 +77,14 @@
 .MainFlexBox button {
   border: none;
   margin-top: 20px;
-  margin-right: 30px;
+
   font-size: 20px;
   background-color: #f72122;
-  width: 250px;
+  width: 280px;
+  height: 35px;
+  margin-left: 50px;
   color: white;
-  border-radius: 20px;
+  border-radius: 40px;
 }
 .Text {
   background-color: white;
@@ -98,10 +101,9 @@
 }
 .CarouselImage6 {
   background-color: #d7ecfb;
-  width: 250px;
+  width: 200px;
   height: 150px;
   border-radius: 20px;
-  margin-left: 50px;
 }
 .CarouselImage6 img {
   width: 150px;
@@ -120,6 +122,8 @@
     -webkit-transition: 1s;
     padding-left: 50px;
   }
+  .TextFlexBox02 {
+  }
   .TextFlexBox02 p {
     -webkit-transition: 1s;
     padding-left: 70px;
@@ -132,17 +136,34 @@
   .BackGroundImage6 {
     display: none;
   }
+  .MainFlexBox02 {
+    margin-bottom: 80px;
+    margin-top: 0px;
+  }
+}
+.Input {
+  display: flex;
+  background-color: white;
+  width: 900px;
+  height: 45px;
+  margin-left: 230px;
+  opacity: 60%;
+  border-radius: 30px;
+}
+.Input p {
+  opacity: 100%;
+  color: rebeccapurple;
 }
 .Test06 {
   -webkit-transition: 1s;
   position: absolute;
-
+  background-color: rgb(112, 112, 112);
   width: 1530px;
   opacity: 50%;
   height: 1000px;
-  background-image: url("Morlads.png");
 }
 .Test07 {
+  margin-top: 50px;
   -webkit-transition: 1s;
   position: absolute;
   background-image: url("Background58.png");
@@ -169,4 +190,98 @@
 .Button08 button {
   background-color: #5893ce;
   width: 150px;
+}
+
+.MainFlexBox02 {
+  background-image: url("Background0Test.png");
+  height: 800px;
+}
+
+.Input5 input {
+  position: absolute;
+  margin-left: 50px;
+}
+.Input5 img {
+  margin-top: 25px;
+  width: 25px;
+  position: absolute;
+  margin-left: 860px;
+}
+.Input5 {
+  margin-right: 950px;
+}
+.Space {
+  height: 50px;
+}
+.TextFlexBox02 {
+  margin-top: 30px;
+}
+.FlexBox06 {
+  display: flex;
+}
+.adz {
+  width: 1500px;
+}
+.Da button {
+  padding-top: 5px;
+  background-color: #011f49;
+  color: white;
+}
+
+.Da span {
+  padding-bottom: 10px;
+  font-size: 22px;
+}
+.ModalBoduy button {
+  background-color: none;
+  border: none;
+
+  margin-left: 50px;
+}
+.ModalBoduy {
+  height: 300px;
+  display: flex;
+}
+.Catgories {
+  position: absolute;
+  padding-right: 50px;
+  height: 400px;
+  width: 1000px;
+  margin-left: 200px;
+
+  background-image: url("Background58.png");
+
+  border-radius: 18px;
+}
+.Catgories img {
+  margin-left: 100px;
+  width: 450px;
+  position: absolute;
+  margin-left: 50px;
+}
+.Button5 {
+  display: flex;
+}
+.Button5 button {
+  margin-left: 20px;
+  background-color: #5793ce;
+  width: 120px;
+}
+@media screen and (max-width: 600px) {
+  .TextFlexBox02 button {
+    margin-right: 80px;
+  }
+  .TextFlexBox02 h4 {
+    font-size: 50px;
+    width: 520px;
+  }
+  .TextFlexBox02 p {
+    padding-left: 50px;
+  }
+  .Input {
+    width: 400px;
+    height: 35px;
+    padding-left: 20px;
+    margin-left: 40px;
+  }
 }
