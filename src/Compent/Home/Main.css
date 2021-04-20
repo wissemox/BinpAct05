@@ -22,9 +22,9 @@
 }
 
 .BackGroundImage6 img {
-  width: 400px;
-  margin-left: 200px;
-  margin-top: 130px;
+  width: 70%;
+  margin-left: 30%;
+  margin-top: 15%;
 }
 .BackGroundImage6 {
   margin-top: 0px;
@@ -144,11 +144,14 @@
 .Input {
   display: flex;
   background-color: white;
-  width: 900px;
-  height: 45px;
+  width: 60%;
+  height: 5%;
   margin-left: 230px;
   opacity: 60%;
   border-radius: 30px;
+}
+.da {
+  height: 200px;
 }
 .Input p {
   opacity: 100%;
@@ -270,18 +273,50 @@
 @media screen and (max-width: 600px) {
   .TextFlexBox02 button {
     margin-right: 80px;
+    -webkit-transition: 1s;
   }
   .TextFlexBox02 h4 {
+    -webkit-transition: 1s;
     font-size: 50px;
     width: 520px;
   }
-  .TextFlexBox02 p {
-    padding-left: 50px;
-  }
+}
+@media screen and (max-width: 1000px) {
   .Input {
-    width: 400px;
-    height: 35px;
-    padding-left: 20px;
-    margin-left: 40px;
+    margin-top: 50px;
+    -webkit-transition: 1s;
+    margin-left: 200px;
+    width: 500px;
+  }
+  .TextFlexBox02 p {
+    -webkit-transition: 1s;
+    padding-left: 250px;
+
+    width: 700px;
+  }
+  .TextFlexBox02 h4 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .Input {
+    margin-top: 50px;
+    -webkit-transition: 1s;
+    margin-left: 15%;
+    width: 80%;
+  }
+  .TextFlexBox02 p {
+    -webkit-transition: 1s;
+    padding-left: 15%;
+
+    width: 50%;
+  }
+  .TextFlexBox02 h4 {
+    -webkit-transition: 1s;
+    font-size: 50px;
+    padding-left: 15%;
+  }
+  .TextFlexBox02 button {
+    margin-right: 35%;
   }
 }

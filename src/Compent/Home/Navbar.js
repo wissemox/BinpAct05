@@ -15,7 +15,7 @@ const Navbar = ({BackgroundImage , setImage}) => {
       }, [])
     return (
         <div   data-Aos="fade-up" className="nAVbA02">
-                        
+                   
             {BackgroundImage?<div className="Test06"> 
             <div data-Aos="fade-up"  className="Categories">
             <button  onClick={Togel}></button>
@@ -26,6 +26,9 @@ const Navbar = ({BackgroundImage , setImage}) => {
                 <div className="ImageNavbar">
                           <img src="binpact002.png"/>
                 </div>
+                <div className="ImageNavBar01">
+                <img src="binpact002.png"/>
+                </div>
                     <div className="Text03">
                         {console.log(BackgroundImage)}
                     <p  >Accueil</p>
@@ -35,9 +38,17 @@ const Navbar = ({BackgroundImage , setImage}) => {
                      <p onClick={Togel}>Catégories</p> 
                     {/* <Modale className="d"/> */}
                     <p>Communautés</p>
+                    <div className="ButtonFlexBox">
                     <Link to="/login"><button><h2>Login</h2></button></Link> 
                     <Link to="/Register"><button><h2>Register</h2></button></Link> 
+                    </div>
+                    <div className="ButtonResposive">
+                    <Link to="/login"><button><img src="UserName.png"/></button></Link> 
+                    <Link to="/Register"><button>  <img src="Password03.png"/></button></Link> 
+                    </div>
+              
                 </div>
+                
             </div>
             <div className="Menu05">
 

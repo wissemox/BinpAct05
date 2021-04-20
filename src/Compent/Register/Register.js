@@ -2,7 +2,9 @@ import React,{useEffect , useState} from 'react'
 import './Register.css'
 import Aos from 'aos'
 import "aos/dist/aos.css"
-const Register = () => {
+import RegisterCheck01 from './RegisterCheck1'
+import { Progress } from 'reactstrap';
+const Register = ({Test,Bloena,Step2d,Step2,Step3d ,Step3}) => {
     useEffect(() => {
         Aos.init({duration: 2000});
       }, [])
@@ -10,16 +12,27 @@ const Register = () => {
     const[Email , setuserEmail]=useState('')
      const[confirmEmail , setconfirmEmail]=useState('')
      const[password , setpassword]=useState('')
+     const[BolenUsername , SetBolenUsername]=useState(false)
+    if(Bloena){
+        localStorage.setItem("username", JSON.stringify(userName));
+        localStorage.setItem("Email", JSON.stringify(Email));
+        localStorage.setItem("confirmEmail", JSON.stringify(confirmEmail));
+        localStorage.setItem("password", JSON.stringify(password));
+    }
+   
+  
     return (
         <div className="BackGroundRegister">
+            
                <div className="Background02">
             <div data-Aos="fade-up" className="Register01">
             <h2 data-Aos="">Register</h2>
-            {userName.length===0 ? <p>Empty username</p>:null}
-                    {Email.length===0 ? <p>Empty Email</p>:null}
-                    {confirmEmail.length===0 ? <p>Empty ConfirmEmail</p>:null}
-                    {password.length===0 ? <p>Empty password</p>:null}
-            <div  data-Aos="fade-up" className="Input06">
+            {console.log(BolenUsername)}
+            
+            {Bloena ?<RegisterCheck01 Step3d={Step3d} Step2d={Step2d} Step2={Step2} Step3={Step3} />: <> 
+                <div  data-Aos="fade-up" className="Input06">
+                    <div className="text-center">0%</div>
+                    <Progress />
                         <img src="UserName.png"/>
                         <input value={userName}  onChange={(e)=>setuserName(e.target.value)} placeholder="Username"/>
                     </div>
@@ -36,8 +49,11 @@ const Register = () => {
                         <input  value={password} onChange={(e)=>setpassword(e.target.value)} placeholder="Password"/>
                     </div>
                     <div data-Aos="fade-up" className="Button">
-                        <button>Register</button>
+                        <button onClick={()=>Test(userName,Email,confirmEmail,password)} >Register</button>
                     </div>
+                    
+            </> }
+           
                 </div>
                 <div data-Aos="fade-up" className="adzd">
                <img src="Flash01.png"/>

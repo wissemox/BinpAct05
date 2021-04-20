@@ -6,8 +6,8 @@ justify-content:center;
 align-items:center;
 height:250px;
 width:100%;
-background-color:red;
-margin:0 12px;
+
+margin-left:20px;
 font-size:4em;
 `
 

@@ -2,6 +2,7 @@ import React,{useEffect} from 'react'
 import "./Main.css"
 import Aos from 'aos'
 import "aos/dist/aos.css"
+
 const Main = ({BackgroundImage , setImage}) => {
     useEffect(() => {
         Aos.init({duration: 2000});
@@ -30,7 +31,7 @@ const Main = ({BackgroundImage , setImage}) => {
                      <button>Bloquez votre place maintenat</button>
             </div>
             <div  data-Aos="fade-up" className="BackGroundImage6">
-                <img src="Ordinater.png"/>
+                <img data-Aos="fade-left" src="Ordinater.png"/>
                 {/* Background65 */}
             </div>
            {BackgroundImage ?<div data-Aos="fade-up"  className="Catgories">

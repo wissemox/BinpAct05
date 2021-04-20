@@ -207,6 +207,112 @@
     width: 250px;
   }
   .H1 h1 {
+    margin-left: 30px;
+  }
+  .H1 {
+    margin-left: 30px;
+  }
+  #Liens {
+    padding-left: 1px;
+    padding-right: 10px;
+    margin-left: 0px;
+  }
+  #Liens h1 {
+    width: 50px;
+  }
+  .Flash8 img {
+    width: 50px;
+  }
+  .Sponsur6 p {
+    font-size: 18px;
+    height: 23px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .H1 h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .H1 {
+    padding-left: 10%;
+  }
+  .TextSponsur {
+    margin-left: 0px;
+  }
+  #Liens {
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 50%;
+  }
+  .TextSponsour01 {
+    width: 500px;
+    margin-left: 30px;
+    font-size: 15px;
+    height: 100px;
+  }
+  .TextSponsour01 p {
+    padding-left: 10px;
+    width: 150px;
+  }
+  .FlexBox07 {
+    font-size: 15px;
+
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 3%;
+  }
+  .FlexBox07 p {
+    text-align: left;
+    padding-left: 0px;
+    height: 20px;
+    width: 100px;
+
+    font-size: 15px;
+  }
+  .FlexBoxTsext06 {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+  }
+  .FlexBoxTsext06 p {
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .TextSponsour01 {
+    margin-left: 0px;
+  }
+  .FlexBoxTsext06 {
+    margin-left: 20px;
+  }
+
+  .FlexBoxTsext06 p {
+    width: 80px;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+  .FlexBox07 {
+    text-align: center;
+    width: 240px;
+    height: 100px;
+  }
+  #Loisir {
+    padding-left: 10px;
+  }
+  #Buerau {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .Dazd {
+    font-size: 14px;
+  }
+  .Dazd {
+    margin-left: 20px;
+  }
+  .Dazd p {
+    width: 250px;
+  }
+  .H1 h1 {
     margin-left: 70px;
   }
   .H1 {

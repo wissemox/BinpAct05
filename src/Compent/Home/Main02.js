@@ -55,7 +55,7 @@ const Main02 = ({BackgroundImage}) => {
          
             <Carousel data-Aos="fade" className="Da" breakPoints={breakPoints}>
               
-        {Array.map((el)=><MapCarousel el={el}/>)}
+        {Array.map((el)=><MapCarousel Card={Card} el={el}/>)}
              
         
 

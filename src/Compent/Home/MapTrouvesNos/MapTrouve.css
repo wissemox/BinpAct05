@@ -27,3 +27,12 @@
     margin-left: 0px;
   }
 }
+@media screen and (max-width: 1000px) {
+  .Morgunet img {
+    width: 40%;
+    margin-left: 30px;
+  }
+  .Morgunet {
+    margin-left: 10%;
+  }
+}

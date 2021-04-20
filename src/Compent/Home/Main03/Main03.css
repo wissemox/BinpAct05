@@ -5,8 +5,7 @@
 .DisplayFlex {
   display: flex;
   background-image: url("BackUlrazd.png");
-  width: 1520px;
-  height: 800px;
+  width: 100%;
 }
 .DisplayFlex img {
   width: 750px;
@@ -15,7 +14,7 @@
   margin-left: 100px;
 }
 .TextFlexBox03 h2 {
-  font-size: 40px;
+  font-size: 250%;
   font-weight: 600;
   color: #224a82;
 }
@@ -76,7 +75,7 @@
   width: 450px;
 }
 .Image05s {
-  margin-left: 200px;
+  margin-left: 15%;
 }
 .DisplayFlex {
   margin-top: 80px;
@@ -103,7 +102,49 @@
     width: 350px;
   }
   .AllNumbre {
-    margin-top: 100px;
+    display: none;
+  }
+  .Image05s {
+    margin-left: 0px;
+  }
+  .TextFlexBox03 p {
+    padding-left: 0px;
+    padding-right: 20px;
+    font-size: 18px;
+    width: 250px;
+    text-align: justify;
+  }
+  .TextFlexBox03 {
+    padding-left: 20px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Image05s img {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 75%;
+    width: 30%;
+  }
+  .Textwis {
+    width: 100%;
+    text-align: left;
+  }
+  .TextFlexBox03 {
+    padding-left: 20px;
+    margin-left: 15%;
+    margin-bottom: 10%;
+  }
+  .TextFlexBox03 h2 {
+    font-size: 30px;
+    padding-left: 20px;
+  }
+  .TextFlexBox03 {
+    width: 350px;
+  }
+  .AllNumbre {
+    margin-top: 50%;
     margin-left: 0px;
   }
   .Image05s {

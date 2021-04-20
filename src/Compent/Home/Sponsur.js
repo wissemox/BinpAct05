@@ -3,6 +3,7 @@ import './Sponsour.css'
 const Sponsur = () => {
     return (
         <div className="Sponsur">
+            <div className="Sponsir03">
             <div className="H1">
             <h1 id="Liens"> Liens </h1>
         <h1>Catégories</h1>
@@ -48,7 +49,7 @@ const Sponsur = () => {
             <div className="Flash8">
             <img src="Flash03.png"/>
             </div>
-            
+            </div>
         </div>
     )
 }
