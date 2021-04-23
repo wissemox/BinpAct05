@@ -1,25 +1,26 @@
-import React,{useEffect} from 'react'
+import React,{useEffect, useState} from 'react'
 import "./Main.css"
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
+import {Link} from 'react-router-dom'
+
 const Main = ({BackgroundImage , setImage}) => {
+    const[Bollen , SetBollent]=useState(false)
     useEffect(() => {
         Aos.init({duration: 2000});
       }, [])
+    const Voitere = () =>{
+        localStorage.setItem("Catgory","Voitere" );
+    }
     return (
         <div className="MainFlexBox02">
         <div className="MainFlexBox02"> 
         <div className="Space">
             
         </div>
-         <div className="Input">
-             <div>
-             <h1>adz</h1>
-             </div>
-          
-            
-            </div>
+    
+           
         <div  data-Aos="fade-up"  className="MainFlexBox">
             {console.log(BackgroundImage)}
                 

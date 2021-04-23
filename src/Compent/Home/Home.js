@@ -13,6 +13,7 @@ import Image02 from './Image02/Image02'
 import MapTrouves from './MapTrouvesNos/MapTrouves'
 import Sponsur from './Sponsur'
 import Sponsur05 from './Sponsur05'
+import Catgor from './Catgor'
 const Home = () => {
     useEffect(() => {
         Aos.init({duration: 2000});
@@ -27,14 +28,12 @@ const Home = () => {
             
             <Main BackgroundImage={BackgroundImage} setImage={setImage}/>
             <div data-Aos="fade-up" >
-                
+                <Catgor/>
+                <Produits/>
             <Main02 BackgroundImage={BackgroundImage}/>
-            <Produits/>
+          
             </div>
-            <div className="Text5">
-                <p>Comment ca mache ?</p>
-                <span>C'est trés simple , juste quelques clics!</span>
-            </div>
+           
             <Main03/>
             <Image/>
             <Image02/>

@@ -158,3 +158,243 @@
     text-align: justify;
   }
 }
+
+.h3 {
+  display: flex;
+  background-image: url("Ligneda.png");
+  width: 1320px;
+  margin-left: 80px;
+  height: 50px;
+}
+.H4 h3 {
+  padding-top: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  color: white;
+  background-color: #c11f26;
+  width: 8%;
+  height: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-right: 600px;
+  margin-left: 20px;
+}
+
+.AllCompent {
+  height: 1000px;
+  background-image: url("TestBakGround.png");
+}
+.Text5 {
+  height: 43%;
+  padding-top: 20%;
+}
+.FleBoxCatgorie {
+  display: flex;
+  text-align: left;
+}
+
+.CmpenetCatgorie h5 {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.CmpenetCatgorie p {
+  color: #2a62a8;
+  width: 80%;
+  text-align: justify;
+  font-size: 100%;
+}
+.CmpenetCatgorie {
+  margin-right: 5%;
+  margin-top: 2%;
+
+  margin-left: 8%;
+}
+.ImageCATFORY img {
+  width: 50%;
+}
+@media screen and (max-width: 1450px) {
+  .h3 {
+    display: flex;
+    background-image: url("Ligneda.png");
+    width: 90%;
+    margin-left: 80px;
+    height: 50px;
+  }
+  .H4 h3 {
+    padding-top: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+
+    width: 8%;
+    height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 500px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .h3 {
+    display: flex;
+    background-image: url("Ligneda.png");
+    width: 79%;
+    margin-left: 80px;
+    height: 50px;
+  }
+  .H4 h3 {
+    padding-top: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+
+    width: 8%;
+    height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 400px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .h3 {
+    display: flex;
+    background-image: url("Ligneda.png");
+    width: 79%;
+    margin-left: 80px;
+    height: 50px;
+  }
+  .H4 h3 {
+    padding-top: 5px;
+
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+
+    width: 8%;
+    height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 350px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .h3 {
+    display: flex;
+    background-image: url("Ligneda.png");
+    width: 79%;
+    margin-left: 80px;
+    height: 50px;
+  }
+  .H4 h3 {
+    padding-top: 5px;
+
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+
+    width: 10%;
+    height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 300px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .h3 {
+    display: flex;
+    background-image: url("Ligneda.png");
+    width: 79%;
+    margin-left: 80px;
+    height: 50px;
+  }
+  .H4 h3 {
+    padding-top: 5px;
+
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+
+    width: 15%;
+    height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 250px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .h3 {
+    display: flex;
+    background-image: url("Ligneda.png");
+    width: 79%;
+    margin-left: 80px;
+    height: 50px;
+  }
+  .H4 h3 {
+    padding-top: 5px;
+
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+
+    width: 20%;
+    height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 200px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .h3 {
+    display: flex;
+
+    width: 79%;
+    margin-left: 80px;
+    height: 50px;
+  }
+  .H4 h3 {
+    padding-top: 5px;
+
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+
+    width: 25%;
+    height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 150px;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .h3 {
+    display: flex;
+
+    width: 60%;
+    margin-left: 80px;
+    height: 50px;
+  }
+  .H4 h3 {
+    padding-top: 5px;
+
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+
+    width: 40%;
+    height: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-right: 80px;
+    margin-left: 20px;
+  }
+}

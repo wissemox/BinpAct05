@@ -54,3 +54,20 @@
   margin-top: 100px;
   width: 60px;
 }
+.Radio {
+  display: flex;
+
+  width: 350px;
+}
+.Radio input {
+  margin-left: 80px;
+  width: 30px;
+  background-color: black;
+}
+.Radio label {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 10px;
+  width: 20px;
+  margin-left: 35px;
+}

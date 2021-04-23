@@ -1,5 +1,5 @@
 .BackgroundPhoto {
-  background-image: url("BackGrounda9.png");
+  background-image: url("BacgroundTest07.png");
   height: 500px;
 }
 .BackgroundPhoto {
@@ -54,8 +54,8 @@
   margin-left: 150px;
 }
 .Image8 img {
-  margin-top: 90px;
-  margin-left: 250px;
+  margin-top: 70px;
+  margin-left: 80px;
   width: 400px;
 }
 /* BackgroundPhoto */
@@ -142,4 +142,48 @@
     margin-top: 50px;
     margin-left: 30%;
   }
+}
+.Noteetavis p {
+  height: 20px;
+  font-size: 200%;
+}
+.Noteetavis {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.Noteetavis span {
+  border-radius: 30px;
+  color: #2a458a;
+  font-size: 150%;
+}
+.Noteetavis h1 {
+  height: 10px;
+  font-size: 600%;
+  opacity: 60%;
+}
+.Avs {
+  margin-top: 10%;
+  margin-left: 15%;
+}
+.Avs h2 {
+  font-size: 150%;
+  height: 20px;
+}
+.Avs p {
+  height: 5%;
+}
+.Avs span {
+  font-size: 200%;
+
+  color: #2a458a;
+}
+.Avs h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #c01c23;
+  font-size: 15px;
+  padding-right: 30px;
+  font-weight: 600;
+}
+.Image8 {
+  margin-left: 100px;
 }

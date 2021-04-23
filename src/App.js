@@ -6,7 +6,7 @@ import Register from './Compent/Register/Register'
 import {BrowserRouter ,Route} from 'react-router-dom'
 import Home from './Compent/Home/Home'
 import Catgory from './Compent/Catgory/Catgory'
-
+import Producdt from './Compent/Home/Product03'
 import "aos/dist/aos.css"
 function App() {
   // Function
@@ -15,7 +15,7 @@ function App() {
   const [Step2  , setStep2 ]=useState(false)
   const [Step3  , setStep3 ]=useState(false)
   const Test =(UserName,Email , ConfirmEmail , password)=>{
-    if(UserName && UserName.length>6 && Email && ConfirmEmail&& password&& password.length>6  ){
+    if(UserName && UserName.length>6 && Email && ConfirmEmail && Email===ConfirmEmail &&Email.includes('@')&&ConfirmEmail.includes('@')  ){
       console.log('dqzdq')
       setBolen(true)
       console.log(Bloena)
@@ -24,8 +24,8 @@ function App() {
     }
   }
   // Setp2 
-  const Step2d =(Communite,LederName , Date )=>{
-    if(Communite && LederName && Date  ){
+  const Step2d =(Communite,LederName , Date ,Sex)=>{
+    if(Communite && LederName && Date && Sex  ){
       console.log('dqzdq')
       setStep2(true)
       console.log(Step2)
@@ -52,7 +52,11 @@ function App() {
       <Route exact path="/register" render={()=><Register Test={Test} Bloena={Bloena} Step2d={Step2d} Step2={Step2} Step3d={Step3d} Step3={Step3} />}></Route>
       {/* <Route exact path="/register/1" render={()=><Register Test={Test} Bloena={Bloena} />}></Route> */}
       <Route exact path="/" render={()=><Home/>} /> 
+      
       <Route exact path="/Catgory" render={()=><Catgory/>} /> 
+      <Route exact path="/Product" render={()=><Catgory/>} />
+      <Route exact path="/Product01" render={()=><Producdt/>} />
+      {/* Producdt */}
       </BrowserRouter>
       
     </div>

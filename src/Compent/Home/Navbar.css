@@ -25,9 +25,9 @@
 }
 .Text03 {
   display: flex;
-  margin-left: 240px;
+  margin-left: 220px;
 
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .Text03 button {
   margin-top: 60px;
@@ -91,14 +91,14 @@
     display: none;
   }
   .Menu05 {
-    background-color: #0b224d;
+    background-color: white;
     -webkit-transition: 1s;
     height: 80px;
     display: flex;
   }
   .Menu05 img {
     -webkit-transition: 1s;
-    margin-left: 230px;
+    margin-left: 45%;
     margin-top: 10px;
     -webkit-transition: 1s;
     width: 45px;
@@ -173,19 +173,21 @@
 }
 .FlexBox03 {
   display: flex;
-  background-color: #0b224d;
+  background-color: white;
 }
 .ImageNavbar {
   margin-left: 150px;
 }
 .ImageNavbar img {
-  width: 200px;
+  width: 300px;
+
   margin-top: 15px;
-  margin-right: 100px;
+  margin-bottom: 20px;
+  margin-right: 50px;
 }
 .FlexBox03 p {
   font-size: 20px;
-  color: white;
+  color: black;
 
   margin-left: 50px;
   margin-top: 20px;
@@ -280,9 +282,10 @@
 @media screen and (max-width: 1000px) {
   .Text03 {
     -webkit-transition: 1s;
-    margin-left: 0px;
+    margin-left: 5px;
   }
   .Text03 p {
+    padding-left: 0px;
     -webkit-transition: 1s;
     font-size: 14px;
   }
@@ -312,6 +315,12 @@
   }
   .ImageNavbar {
     margin-right: 40px;
+  }
+  .Text03 p {
+    width: 30px;
+  }
+  .Text03 {
+    margin-left: 10%;
   }
 }
 @media screen and (max-width: 900px) {

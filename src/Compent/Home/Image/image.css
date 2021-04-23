@@ -1,11 +1,8 @@
-.Image img {
-  width: 1500px;
-  background-color: red;
-}
 .Image p {
   padding-top: 80px;
   font-size: 35px;
 }
 .Image {
   height: 50px;
+  margin-top: 200px;
 }

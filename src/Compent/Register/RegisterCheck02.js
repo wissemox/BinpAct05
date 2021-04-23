@@ -8,6 +8,7 @@ const RegisterCheck02 = ({Step3d , Step3}) => {
         <div>
                <div className="text-center">75%</div>
       <Progress data-Aos="fade-left" value="75" />
+      {UserName&&Test ? null : <p>Enter all filed</p> }
                 {Step3 ? <Redirect to="/login"/> : <>
                 <div  data-Aos="fade-up" className="Input06">
 
@@ -19,7 +20,7 @@ const RegisterCheck02 = ({Step3d , Step3}) => {
 <div  data-Aos="fade-up" className="Input06">
 <img src="UserName.png"/>
 
-<input  value={Test} onChange={(e)=>setTest(e.target.value)}  placeholder="Test" />
+<input type="password"  value={Test} onChange={(e)=>setTest(e.target.value)}  placeholder="password" />
 {console.log(Test)}
 <div data-Aos="fade-up" className="Button">
 <button onClick={()=>Step3d(UserName,Test)} >next</button>

@@ -1,0 +1,20 @@
+.NavItem {
+  background-color: #000d36;
+}
+.NavItem img {
+  margin-top: 20px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+.Image {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+}
+.Image img {
+  width: 200px;
+}
+.ProductFilter {
+  display: flex;
+  flex-wrap: wrap;
+}

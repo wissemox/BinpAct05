@@ -14,8 +14,8 @@ const Login = () => {
             <div>
             <div   className="InputName">
                 <h2 data-Aos="fade-up">Conncte</h2>
-                {username.length===0 ? <p>Empty Email</p>:null}
-                    {Password.length===0 ? <p>Empty password</p>:null}
+                {username.length===0 ? <p data-Aos="fade-up" >Empty Email</p>:null}
+                    {Password.length===0 ? <p data-Aos="fade-up" >Empty password</p>:null}
                     <div data-Aos="fade-up" className="Username">
                     <img src="UserName.png"/>
                     <input value={username} onChange={(e)=>setName(e.target.value)} placeholder="username"/>
